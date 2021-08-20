@@ -30,6 +30,11 @@ For example, `summation(4)` should return 10 because 1+2+3+4 is 10. Note, you ma
 
 function summation(num) {
   /*Your Code Here*/
+  let sum = 0;
+  for (let i = 1; i <= num; i++){
+    sum += i;
+  }
+  return sum;
 
   }
  
@@ -176,7 +181,11 @@ function CuboidMaker(attrs){
   Create an object called cuboid that uses the new keyword to use our CuboidMaker constructor
   Add properties and values of length: 4, width: 5, and height: 5 to cuboid. */
 
-
+  // const cuboid = new CuboidMaker({
+  //   length: 4,
+  //   width: 5,
+  //   height: 5
+  // });
 
 
 
@@ -205,6 +214,12 @@ class CuboidMakerTwo {
   }
 
 }
+
+// const cuboidTwo = new CuboidMakerTwo({
+//   length: 4,
+//   width: 5,
+//   height: 5
+// });
 
 
 //🦄🦄🦄 Test your volume and surfaceArea methods by uncommenting the logs below: 🦄🦄🦄
