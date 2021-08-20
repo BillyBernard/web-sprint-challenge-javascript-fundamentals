@@ -68,8 +68,8 @@ const zooAnimals = [
       displayNames.push(`name: ${item.animal_name}, scientific: ${item.scientific_name}`)
     });
     return displayNames;
-
   }
+  
   
 
   /* 🦁🦁🦁 Request 2: .map() 🦁🦁🦁
@@ -211,9 +211,6 @@ function CuboidMaker(attrs){
     width: 5,
     height: 5
   });
-
-  console.log(cuboid.surfaceArea());
-
 
 
 
