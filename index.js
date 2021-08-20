@@ -17,7 +17,7 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
-
+// The nestedFunction can access the variable internal bacause of closure. The variable internal is passed down to the nestedFunction because nestedFunction is nested inside of myFunction, where the variable internal is defined.
 
 
 
